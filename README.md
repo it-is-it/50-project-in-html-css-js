@@ -1,3 +1,3 @@
-## 50-project-in-html-css-js
+# 50-project-in-html-css-js
 making some projects to learn javascript
-# 1. 
+## 1. 
