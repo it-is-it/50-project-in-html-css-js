@@ -37,14 +37,7 @@ function update() {
   progress.style.width =
     ((actives.length - 1) / (circles.length - 1)) * 100 + '%';
 
-  // currentActive === 1 ? prev.disabled  : circles.length ? next.disabled : false
-
-  if (currentActive === 1) {
-    prev.disabled = true;
-  } else if (currentActive === circles.length) {
-    next.disabled = true;
-  } else {
-    prev.disabled = false;
-    next.disabled = false;
-  }
+    prev.disabled = currentActive === 1 ? true : false;
+    next.disabled = currentActive === circles.length ? true : false;
+    
 }
